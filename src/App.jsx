@@ -3,7 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import latestPosts './components/latestPosts';
 import Newsletters from './components/Newsletters';
-import PopulerPost from './componets/Populerpost';
+import PopulerPost from './components/Populerpost';
+import ShopitNow from './components/ShopitNow';
 
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
             <latestPosts/>
             <Newsletters/>
             <populerpost/>
+            <ShopitNow/>
         </>
     )
 }
