@@ -5,6 +5,7 @@ import latestPosts './components/latestPosts';
 import Newsletters from './components/Newsletters';
 import PopulerPost from './components/Populerpost';
 import ShopitNow from './components/ShopitNow';
+import TopVideo from './components/TopVideo';
 
 
 function App(){
@@ -17,6 +18,7 @@ function App(){
             <Newsletters/>
             <populerpost/>
             <ShopitNow/>
+            <TopVideo/>
         </>
     )
 }
