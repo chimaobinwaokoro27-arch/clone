@@ -1,6 +1,7 @@
 import Footer from './components/Footer';
-import Header from './components/Header'
-import Hero from './components/Hero'
+import Header from './components/Header';
+import Hero from './components/Hero';
+import latestPosts './components/latestPosts';
 
 function App(){
     return(
@@ -8,7 +9,7 @@ function App(){
             <Fotter/>   
             <Header/>
             <Hero/>
-            
+            <latestPosts/>
         </>
     )
 }
